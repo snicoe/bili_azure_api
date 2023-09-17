@@ -89,7 +89,7 @@ elseif(substr_count($request_uri, 'playurl') != 0) {
 else {
     header('HTTP/1.1 502 Bad Gateway');
     header('Content-Type: text/plain');
-    echo 'Failed to match interface./r/n';
+    echo 'Failed to match interface.';
     return 1;
 }
 
