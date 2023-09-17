@@ -139,8 +139,8 @@ if ($response === false) {
 		}
 	}
 	echo $response_body;
-ob_end_flush();
 }
 
 curl_close($ch);
+ob_end_flush();
 ?>
