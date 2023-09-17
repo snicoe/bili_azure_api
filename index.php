@@ -1,5 +1,4 @@
  <?php
-ob_start();
 /* Config */
 
 $upstream_pc_url = 'https://api.bilibili.com/pgc/player/web/playurl';
@@ -142,5 +141,4 @@ if ($response === false) {
 }
 
 curl_close($ch);
-ob_end_flush();
 ?>
