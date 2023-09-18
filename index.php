@@ -23,7 +23,7 @@ function str_n_pos($str,$find,$n)
         for ($i=1;$i<=$n;$i++){
             $pos = strpos($str,$find);
             $str = substr($str,$pos+1);
-            $pos_val=$pos+$pos_val+1;
+            $pos_val = $pos + $pos_val + 1;
         }
 	$count = $pos_val-1;
 	return $count; 
